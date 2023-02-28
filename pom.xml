@@ -16,16 +16,22 @@
 	<!-- Versioning -->
 	<groupId>gr.codelearn</groupId>
 	<artifactId>java-path-spring-cloud</artifactId>
-	<version>2022.1.0</version>
+	<version>2023.1.0</version>
 
 	<!-- Meta-data -->
 	<name>[${project.artifactId}]</name>
 	<description>Introduction to Microservices using Spring Cloud module</description>
-	<inceptionYear>2022</inceptionYear>
+	<inceptionYear>2023</inceptionYear>
 
 	<!-- Modules -->
 	<modules>
 		<module>java-path-spring-cloud-app</module>
+		<module>java-path-spring-cloud-core</module>
+		<module>java-path-spring-cloud-catalog-service</module>
+		<module>java-path-spring-cloud-customer-service</module>
+		<module>java-path-spring-cloud-email-service</module>
+		<module>java-path-spring-cloud-loyalty-service</module>
+		<module>java-path-spring-cloud-order-service</module>
 	</modules>
 
 	<!-- Properties/Variables -->

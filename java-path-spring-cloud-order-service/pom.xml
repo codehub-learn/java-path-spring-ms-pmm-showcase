@@ -8,11 +8,11 @@
 		<artifactId>java-path-spring-cloud</artifactId>
 		<version>2023.1.0</version>
 	</parent>
-	<artifactId>java-path-spring-cloud-app</artifactId>
+	<artifactId>java-path-spring-cloud-order-service</artifactId>
 
 	<!-- Meta-data -->
 	<name>[${project.artifactId}]</name>
-	<description>Introduction to Microservices, Spring Cloud App module</description>
+	<description>Introduction to Microservices, Spring Cloud order module</description>
 
 	<!-- Dependencies -->
 	<dependencies>
