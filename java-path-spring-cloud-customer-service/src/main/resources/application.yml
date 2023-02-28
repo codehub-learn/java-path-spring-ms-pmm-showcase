@@ -20,11 +20,7 @@ spring:
                 cachePrepStmts: true
                 prepStmtCacheSize: 250
                 prepStmtCacheSqlLimit: 2048
-        # Mode to apply when determining if DataSource initialization should be performed using the available DDL (schema
-        # .sql) and DML (data.sql) scripts.
-        initialization-mode: never
         password: sa
-        platform: h2
         type: com.zaxxer.hikari.HikariDataSource
         url: jdbc:h2:file:~/.h2/pmm/eshop;IFEXISTS=FALSE;AUTO_SERVER=TRUE;
         username: sa
@@ -52,26 +48,9 @@ spring:
                 order_inserts: true
                 order_updates: true
         show-sql: false
-    freemarker:
-        checkTemplateLocation: false
-    sendgrid:
-        api-key:
-        properties:
-            sender:
-                name: Constantinos Giannacoulis
-            username:
-    mail:
-        host: smtp.gmail.com
-        port: 587
-        username:
-        password:
-        properties:
-            mail:
-                smtp:
-                    auth: true
-                    starttls:
-                        enable: true
-            sender:
-                name: Constantinos Giannacoulis
-        protocol: smtp
-        test-connection: false
+    sql:
+        init:
+            # Mode to apply when determining if DataSource initialization should be performed using the available DDL (schema
+            # .sql) and DML (data.sql) scripts.
+            mode: never
+            platform: h2

@@ -52,5 +52,7 @@ spring:
         show-sql: false
     sql:
         init:
+            # Mode to apply when determining if DataSource initialization should be performed using the available DDL (schema
+            # .sql) and DML (data.sql) scripts.
             mode: never
             platform: h2
