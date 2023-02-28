@@ -3,8 +3,8 @@ package gr.codelearn.spring.cloud.showcase.app.base;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import javax.annotation.PostConstruct;
-import javax.annotation.PreDestroy;
+import jakarta.annotation.PostConstruct;
+import jakarta.annotation.PreDestroy;
 
 public abstract class BaseComponent {
 	protected Logger logger = LoggerFactory.getLogger(getClass());
