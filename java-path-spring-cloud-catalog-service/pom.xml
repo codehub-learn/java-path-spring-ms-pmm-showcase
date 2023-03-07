@@ -21,6 +21,10 @@
 			<artifactId>java-path-spring-cloud-core</artifactId>
 			<version>2023.1.0</version>
 		</dependency>
+		<dependency>
+			<groupId>org.mapstruct</groupId>
+			<artifactId>mapstruct</artifactId>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
